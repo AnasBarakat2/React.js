@@ -6,6 +6,7 @@ import Footer from './component/footer';
 import Home from './component/Home';
 import Product from './component/Product';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import SubProduct from './component/subProduct';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
      
      <Route path='/' Component={Home}></Route>
      <Route path='/Product' Component={Product}></Route>
+      <Route path='/subprod' Component={SubProduct}></Route>
      
 
   </Routes>
