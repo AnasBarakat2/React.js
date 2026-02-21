@@ -48,7 +48,7 @@ function Product (){
                 </ul>
             </div>
 
-            <SubProduct x={subProducts}/>
+            {/* <SubProduct x={subProducts}/> */}
 
         </div>
     )
